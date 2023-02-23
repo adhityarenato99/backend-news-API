@@ -1,0 +1,51 @@
+{
+	"success": true,
+	"user": {
+		"name": "test",
+		"email": "test@test.com",
+		"updated_at": "2023-02-15T02:54:05.000000Z",
+		"created_at": "2023-02-15T02:54:05.000000Z",
+		"id": 1
+	}
+}
+
+/* User Authentification */
+email : test@test.com
+password : password
+
+/** Result testing */
+{
+	"success": true,
+	"user": {
+		"id": 1,
+		"name": "test",
+		"email": "test@test.com",
+		"email_verified_at": null,
+		"created_at": "2023-02-15T09:06:00.000000Z",
+		"updated_at": "2023-02-15T09:06:00.000000Z"
+	},
+	"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTY3NjQ1MjA3NCwiZXhwIjoxNjc2NDU1Njc0LCJuYmYiOjE2NzY0NTIwNzQsImp0aSI6Ijd0YVFUWDRUWnI5akNzNUMiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.eMv8_Xo4wT3glq4KGIJKtwdBuk4ocVfpq-MZNOwklWg"
+}
+
+
+/** Bearer JSON **/
+
+Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTY3NjQ1MjA3NCwiZXhwIjoxNjc2NDU1Njc0LCJuYmYiOjE2NzY0NTIwNzQsImp0aSI6Ijd0YVFUWDRUWnI5akNzNUMiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.eMv8_Xo4wT3glq4KGIJKtwdBuk4ocVfpq-MZNOwklWg
+
+/** Result for get into Dashboard **/
+{
+	"id": 1,
+	"name": "test",
+	"email": "test@test.com",
+	"email_verified_at": null,
+	"created_at": "2023-02-15T09:06:00.000000Z",
+	"updated_at": "2023-02-15T09:06:00.000000Z"
+}
+
+
+/** Logout Process */
+
+{
+	"success": true,
+	"message": "Logout Berhasil!"
+}
