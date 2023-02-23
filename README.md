@@ -1,6 +1,6 @@
 # How to Install
 
-npm install
+npm install <br />
 php artisan serve
 
 
